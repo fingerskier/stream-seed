@@ -1,0 +1,53 @@
+{
+    "name" : "stream-seed",
+    "version" : "0.1.1",
+    "description" : "conglomeration of stuffs fer super-fast web-app setup",
+    "main" : "./app.js",
+    "keywords" : [
+        "streaming",
+        "browser",
+        "web",
+        "application"
+    ],
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/fingerskier/stream-seed.git"
+    },
+    "dependencies" : {
+        "dnode": "*",
+        "dnode-protocol" : "*",
+        "domready": "*",
+        "ecstatic": "*",
+        "jsonify" : "*",
+        "mongodb": "*",
+        "shoe": "*",
+        "weak" : "*"
+    },
+    "devDependencies" : {
+        "tap" : "*",
+        "tape" : "*"
+    },
+    "scripts" : {
+        "test" : "tap test/*.js test/server/*.js"
+    },
+    "testling" : {
+        "files" : "test/*.js",
+        "browsers" : [
+            "ie/6..latest",
+            "chrome/20..latest",
+            "firefox/10..latest",
+            "safari/latest",
+            "opera/11.0..latest",
+            "iphone/6", "ipad/6"
+        ]
+    },
+    "browserify" : "client.js",
+    "engine" : {
+        "node" : "*"
+    },
+    "author" : {
+        "name" : "Matt Currier",
+        "email" : "fingerskier@gmail.com",
+        "url" : "fingerskier.net"
+    }
+}

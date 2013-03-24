@@ -1,0 +1,310 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\fingerskier\Projects\stream-seed\package.json
+6 warn package.json stream-seed@0.1.1 No README.md file found!
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ 'C:\\Users\\fingerskier\\Projects\\stream-seed',
+8 verbose install   [ 'dnode',
+8 verbose install     'dnode-protocol',
+8 verbose install     'domready',
+8 verbose install     'ecstatic',
+8 verbose install     'jsonify',
+8 verbose install     'mongodb',
+8 verbose install     'shoe',
+8 verbose install     'weak',
+8 verbose install     'tap',
+8 verbose install     'tape' ] ]
+9 verbose from cache C:\Users\fingerskier\Projects\stream-seed\package.json
+10 info preinstall stream-seed@0.1.1
+11 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\dnode\package.json
+12 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\dnode-protocol\package.json
+13 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\domready\package.json
+14 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\ecstatic\package.json
+15 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\jsonify\package.json
+16 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\mongodb\package.json
+17 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\node-gyp\package.json
+18 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\shoe\package.json
+19 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\tap\package.json
+20 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\tape\package.json
+21 verbose from cache C:\Users\fingerskier\Projects\stream-seed\package.json
+22 verbose readDependencies using package.json deps
+23 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\.bin\package.json
+24 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\dnode\package.json
+25 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\dnode-protocol\package.json
+26 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\domready\package.json
+27 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\ecstatic\package.json
+28 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\jsonify\package.json
+29 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\mongodb\package.json
+30 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\node-gyp\package.json
+31 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\shoe\package.json
+32 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\tap\package.json
+33 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\tape\package.json
+34 verbose already installed skipping mongodb@* C:\Users\fingerskier\Projects\stream-seed
+35 verbose already installed skipping shoe@* C:\Users\fingerskier\Projects\stream-seed
+36 verbose cache add [ 'weak@*', null ]
+37 silly cache add name=undefined spec="weak@*" args=["weak@*",null]
+38 verbose parsed url { pathname: 'weak@*', path: 'weak@*', href: 'weak@*' }
+39 silly cache add name="weak" spec="*" args=["weak","*"]
+40 verbose parsed url { pathname: '*', path: '*', href: '*' }
+41 verbose addNamed [ 'weak', '*' ]
+42 verbose addNamed [ null, '' ]
+43 verbose already installed skipping tap@* C:\Users\fingerskier\Projects\stream-seed
+44 verbose already installed skipping tape@* C:\Users\fingerskier\Projects\stream-seed
+45 verbose already installed skipping dnode@* C:\Users\fingerskier\Projects\stream-seed
+46 verbose already installed skipping dnode-protocol@* C:\Users\fingerskier\Projects\stream-seed
+47 verbose already installed skipping domready@* C:\Users\fingerskier\Projects\stream-seed
+48 verbose already installed skipping ecstatic@* C:\Users\fingerskier\Projects\stream-seed
+49 verbose already installed skipping jsonify@* C:\Users\fingerskier\Projects\stream-seed
+50 silly lockFile 231e1797-weak weak@*
+51 verbose lock weak@* C:\Users\fingerskier\AppData\Roaming\npm-cache\231e1797-weak.lock
+52 silly addNameRange { name: 'weak', range: '', hasData: false }
+53 verbose url raw weak
+54 verbose url resolving [ 'https://registry.npmjs.org/', './weak' ]
+55 verbose url resolved https://registry.npmjs.org/weak
+56 info trying registry request attempt 1 at 20:16:03
+57 verbose etag "5LFUYWMS7FJJ3GZFYL6K10NWN"
+58 http GET https://registry.npmjs.org/weak
+59 http 304 https://registry.npmjs.org/weak
+60 silly registry.get cb [ 304,
+60 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+60 silly registry.get     etag: '"5LFUYWMS7FJJ3GZFYL6K10NWN"',
+60 silly registry.get     date: 'Sun, 24 Mar 2013 02:16:07 GMT',
+60 silly registry.get     'content-length': '0' } ]
+61 verbose etag weak from cache
+62 silly addNameRange number 2 { name: 'weak', range: '', hasData: true }
+63 silly addNameRange versions [ 'weak',
+63 silly addNameRange   [ '0.0.1',
+63 silly addNameRange     '0.1.0',
+63 silly addNameRange     '0.1.1',
+63 silly addNameRange     '0.1.2',
+63 silly addNameRange     '0.1.3',
+63 silly addNameRange     '0.1.4',
+63 silly addNameRange     '0.1.5',
+63 silly addNameRange     '0.2.0',
+63 silly addNameRange     '0.2.1' ] ]
+64 verbose addNamed [ 'weak', '0.2.1' ]
+65 verbose addNamed [ '0.2.1', '0.2.1' ]
+66 silly lockFile eba97922-weak-0-2-1 weak@0.2.1
+67 verbose lock weak@0.2.1 C:\Users\fingerskier\AppData\Roaming\npm-cache\eba97922-weak-0-2-1.lock
+68 verbose read json C:\Users\fingerskier\AppData\Roaming\npm-cache\weak\0.2.1\package\package.json
+69 silly lockFile eba97922-weak-0-2-1 weak@0.2.1
+70 silly lockFile 231e1797-weak weak@*
+71 silly resolved [ { author: { name: 'Ben Noordhuis', email: 'info@bnoordhuis.nl' },
+71 silly resolved     contributors: [ [Object] ],
+71 silly resolved     name: 'weak',
+71 silly resolved     description: 'Make weak references to JavaScript Objects.',
+71 silly resolved     keywords:
+71 silly resolved      [ 'weak',
+71 silly resolved        'reference',
+71 silly resolved        'js',
+71 silly resolved        'javascript',
+71 silly resolved        'object',
+71 silly resolved        'function',
+71 silly resolved        'callback' ],
+71 silly resolved     version: '0.2.1',
+71 silly resolved     repository:
+71 silly resolved      { type: 'git',
+71 silly resolved        url: 'git://github.com/TooTallNate/node-weak.git' },
+71 silly resolved     main: './lib/weak.js',
+71 silly resolved     scripts:
+71 silly resolved      { test: 'mocha -gc --reporter spec',
+71 silly resolved        install: 'node-gyp rebuild' },
+71 silly resolved     engines: { node: '*' },
+71 silly resolved     dependencies: { bindings: '*' },
+71 silly resolved     devDependencies: { mocha: '> 0.7.0', should: '*' },
+71 silly resolved     gypfile: true,
+71 silly resolved     readme: 'node-weak\n=========\n### Make weak references to JavaScript Objects.\n[![Build Status](https://secure.travis-ci.org/TooTallNate/node-weak.png)](http://travis-ci.org/TooTallNate/node-weak)\n\nOn certain rarer occasions, you run into the need to be notified when a JavaScript\nobject is going to be garbage collected. This feature is exposed to V8\'s C++ API,\nbut not to JavaScript.\n\nThat\'s where `node-weak` comes in! This module exports V8\'s `Persistent<Object>`\nfunctionality to JavaScript. This allows you to create weak references, and\noptionally attach a callback function to any arbitrary JS object. The callback\nfunction will be invoked right before the Object is garbage collected (i.e. after\nthere are no more remaining references to the Object in JS-land).\n\nThis module can, for example, be used for debugging; to determine whether or not\nan Object is being garbage collected as it should.\nTake a look at the example below for commented walkthrough scenario.\n\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install weak\n```\n\n\nExample\n-------\n\nHere\'s an example of calling a `cleanup()` function on a Object before it gets\ngarbage collected:\n\n``` js\nvar weak = require(\'weak\')\n\n// we are going to "monitor" this Object and invoke "cleanup"\n// before the object is garbage collected\nvar obj = {\n    a: true\n  , foo: \'bar\'\n}\n\n// The function to call before Garbage Collection.\n// Note that by the time this is called, \'obj\' has been set to `null`.\nfunction cleanup (o) {\n  delete o.a\n  delete o.foo\n}\n\n// Here\'s where we set up the weak reference\nvar ref = weak(obj, function () {\n  // `this` inside the callback is the \'obj\'. DO NOT store any new references\n  // to the object, and DO NOT use the object in any async functions.\n  cleanup(this)\n})\n\n// While `obj` is alive, `ref` proxies everything to it, so:\nref.a   === obj.a\nref.foo === obj.foo\n\n// Clear out any references to the object, so that it will be GC\'d at some point...\nobj = null\n\n//\n//// Time passes, and the garbage collector is run\n//\n\n// `callback()` above is called, and `ref` now acts like an empty object.\ntypeof ref.foo === \'undefined\'\n```\n\n\nAPI\n---\n\n### weakref weak(Object obj [, Function callback])\n\nThe main exports is the function that creates the weak reference.\nThe first argument is the Object that should be monitored.\nThe Object can be a regular Object, an Array, a Function, a RegExp, or any of\nthe primitive types or constructor function created with `new`.\nOptionally, you can set a callback function to be invoked\nbefore the object is garbage collected.\n\n\n### Object weak.get(weakref ref)\n\n`get()` returns the actual reference to the Object that this weak reference was\ncreated with. If this is called with a dead reference, `undefined` is returned.\n\n\n### Boolean weak.isDead(weakref ref)\n\nChecks to see if `ref` is a dead reference. Returns `true` if the original Object\nhas already been GC\'d, `false` otherwise.\n\n\n### null weak.addCallback(weakref ref, Function callback)\n\nAdds `callback` to the Array of callback functions that will be invoked before the\nObjects gets garbage collected. The callbacks get executed in the order that they\nare added.\n\n\n### Array weak.callbacks(weakref ref)\n\nReturns the internal `Array` that `ref` iterates through to invoke the GC\ncallbacks. The array can be `push()`ed or `unshift()`ed onto, to have more control\nover the execution order of the callbacks. This is similar in concept to node\'s\n`EventEmitter#listeners()` function.\n',
+71 silly resolved     readmeFilename: 'README.md',
+71 silly resolved     _id: 'weak@0.2.1',
+71 silly resolved     _from: 'weak@*' } ]
+72 info install weak@0.2.1 into C:\Users\fingerskier\Projects\stream-seed
+73 info installOne weak@0.2.1
+74 verbose from cache C:\Users\fingerskier\AppData\Roaming\npm-cache\weak\0.2.1\package\package.json
+75 info C:\Users\fingerskier\Projects\stream-seed\node_modules\weak unbuild
+76 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\package.json
+77 verbose tar unpack C:\Users\fingerskier\AppData\Roaming\npm-cache\weak\0.2.1\package.tgz
+78 silly lockFile 4c41be61-ts-stream-seed-node-modules-weak C:\Users\fingerskier\Projects\stream-seed\node_modules\weak
+79 verbose lock C:\Users\fingerskier\Projects\stream-seed\node_modules\weak C:\Users\fingerskier\AppData\Roaming\npm-cache\4c41be61-ts-stream-seed-node-modules-weak.lock
+80 silly gunzTarPerm modes [ '755', '644' ]
+81 silly gunzTarPerm extractEntry package.json
+82 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+83 silly gunzTarPerm extractEntry .npmignore
+84 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+85 silly gunzTarPerm extractEntry README.md
+86 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+87 silly gunzTarPerm extractEntry LICENSE
+88 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+89 silly gunzTarPerm extractEntry lib/weak.js
+90 silly gunzTarPerm modified mode [ 'lib/weak.js', 438, 420 ]
+91 silly gunzTarPerm extractEntry .travis.yml
+92 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+93 silly gunzTarPerm extractEntry compiled/0.6/linux/ia32/weakref.node
+94 silly gunzTarPerm modified mode [ 'compiled/0.6/linux/ia32/weakref.node', 438, 420 ]
+95 silly gunzTarPerm extractEntry compiled/0.6/win32/ia32/weakref.node
+96 silly gunzTarPerm modified mode [ 'compiled/0.6/win32/ia32/weakref.node', 438, 420 ]
+97 silly gunzTarPerm extractEntry binding.gyp
+98 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+99 silly gunzTarPerm extractEntry src/weakref.cc
+100 silly gunzTarPerm modified mode [ 'src/weakref.cc', 438, 420 ]
+101 silly gunzTarPerm extractEntry test/buffer.js
+102 silly gunzTarPerm modified mode [ 'test/buffer.js', 438, 420 ]
+103 silly gunzTarPerm extractEntry test/callback.js
+104 silly gunzTarPerm modified mode [ 'test/callback.js', 438, 420 ]
+105 silly gunzTarPerm extractEntry test/create.js
+106 silly gunzTarPerm modified mode [ 'test/create.js', 438, 420 ]
+107 silly gunzTarPerm extractEntry test/exports.js
+108 silly gunzTarPerm modified mode [ 'test/exports.js', 438, 420 ]
+109 silly gunzTarPerm extractEntry test/weakref.js
+110 silly gunzTarPerm modified mode [ 'test/weakref.js', 438, 420 ]
+111 silly gunzTarPerm extractEntry wscript
+112 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+113 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\package.json
+114 silly lockFile 4c41be61-ts-stream-seed-node-modules-weak C:\Users\fingerskier\Projects\stream-seed\node_modules\weak
+115 info preinstall weak@0.2.1
+116 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\package.json
+117 verbose readDependencies using package.json deps
+118 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\package.json
+119 verbose readDependencies using package.json deps
+120 verbose cache add [ 'bindings@*', null ]
+121 silly cache add name=undefined spec="bindings@*" args=["bindings@*",null]
+122 verbose parsed url { pathname: 'bindings@*',
+122 verbose parsed url   path: 'bindings@*',
+122 verbose parsed url   href: 'bindings@*' }
+123 silly cache add name="bindings" spec="*" args=["bindings","*"]
+124 verbose parsed url { pathname: '*', path: '*', href: '*' }
+125 verbose addNamed [ 'bindings', '*' ]
+126 verbose addNamed [ null, '' ]
+127 silly lockFile a3858fc2-bindings bindings@*
+128 verbose lock bindings@* C:\Users\fingerskier\AppData\Roaming\npm-cache\a3858fc2-bindings.lock
+129 silly addNameRange { name: 'bindings', range: '', hasData: false }
+130 verbose url raw bindings
+131 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+132 verbose url resolved https://registry.npmjs.org/bindings
+133 info trying registry request attempt 1 at 20:16:06
+134 verbose etag "4NYLBD9FONZAZA2PMGUSX6925"
+135 http GET https://registry.npmjs.org/bindings
+136 http 304 https://registry.npmjs.org/bindings
+137 silly registry.get cb [ 304,
+137 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+137 silly registry.get     etag: '"4NYLBD9FONZAZA2PMGUSX6925"',
+137 silly registry.get     date: 'Sun, 24 Mar 2013 02:16:08 GMT',
+137 silly registry.get     'content-length': '0' } ]
+138 verbose etag bindings from cache
+139 silly addNameRange number 2 { name: 'bindings', range: '', hasData: true }
+140 silly addNameRange versions [ 'bindings',
+140 silly addNameRange   [ '0.0.1',
+140 silly addNameRange     '0.1.0',
+140 silly addNameRange     '0.1.1',
+140 silly addNameRange     '0.2.0',
+140 silly addNameRange     '0.2.1',
+140 silly addNameRange     '0.2.2',
+140 silly addNameRange     '0.2.3',
+140 silly addNameRange     '0.2.4',
+140 silly addNameRange     '0.3.0',
+140 silly addNameRange     '0.4.0',
+140 silly addNameRange     '1.0.0',
+140 silly addNameRange     '1.1.0' ] ]
+141 verbose addNamed [ 'bindings', '1.1.0' ]
+142 verbose addNamed [ '1.1.0', '1.1.0' ]
+143 silly lockFile ff2d1960-bindings-1-1-0 bindings@1.1.0
+144 verbose lock bindings@1.1.0 C:\Users\fingerskier\AppData\Roaming\npm-cache\ff2d1960-bindings-1-1-0.lock
+145 verbose read json C:\Users\fingerskier\AppData\Roaming\npm-cache\bindings\1.1.0\package\package.json
+146 silly lockFile ff2d1960-bindings-1-1-0 bindings@1.1.0
+147 silly lockFile a3858fc2-bindings bindings@*
+148 silly resolved [ { name: 'bindings',
+148 silly resolved     description: 'Helper module for loading your native module\'s .node file',
+148 silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+148 silly resolved     version: '1.1.0',
+148 silly resolved     author:
+148 silly resolved      { name: 'Nathan Rajlich',
+148 silly resolved        email: 'nathan@tootallnate.net',
+148 silly resolved        url: 'http://tootallnate.net' },
+148 silly resolved     repository:
+148 silly resolved      { type: 'git',
+148 silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+148 silly resolved     main: './bindings.js',
+148 silly resolved     readme: 'node-bindings\n=============\n### Helper module for loading your native module\'s .node file\n\nThis is a helper module for authors of Node.js native addon modules.\nIt is basically the "swiss army knife" of `require()`ing your native module\'s\n`.node` file.\n\nThroughout the course of Node\'s native addon history, addons have ended up being\ncompiled in a variety of different places, depending on which build tool and which\nversion of node was used. To make matters worse, now the _gyp_ build tool can\nproduce either a _Release_ or _Debug_ build, each being built into different\nlocations.\n\nThis module checks _all_ the possible locations that a native addon would be built\nat, and returns the first one that loads successfully.\n\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install bindings\n```\n\nOr add it to the `"dependencies"` section of your _package.json_ file.\n\n\nExample\n-------\n\n`require()`ing the proper bindings file for the current node version, platform\nand architecture is as simple as:\n\n``` js\nvar bindings = require(\'bindings\')(\'binding.node\')\n\n// Use your bindings defined in your C files\nbindings.your_c_function()\n```\n\n\nNice Error Output\n-----------------\n\nWhen the `.node` file could not be loaded, `node-bindings` throws an Error with\na nice error message telling you exactly what was tried. You can also check the\n`err.tries` Array property.\n\n```\nError: Could not load the bindings file. Tried:\n → /Users/nrajlich/ref/build/binding.node\n → /Users/nrajlich/ref/build/Debug/binding.node\n → /Users/nrajlich/ref/build/Release/binding.node\n → /Users/nrajlich/ref/out/Debug/binding.node\n → /Users/nrajlich/ref/Debug/binding.node\n → /Users/nrajlich/ref/out/Release/binding.node\n → /Users/nrajlich/ref/Release/binding.node\n → /Users/nrajlich/ref/build/default/binding.node\n → /Users/nrajlich/ref/compiled/0.8.2/darwin/x64/binding.node\n    at bindings (/Users/nrajlich/ref/node_modules/bindings/bindings.js:84:13)\n    at Object.<anonymous> (/Users/nrajlich/ref/lib/ref.js:5:47)\n    at Module._compile (module.js:449:26)\n    at Object.Module._extensions..js (module.js:467:10)\n    at Module.load (module.js:356:32)\n    at Function.Module._load (module.js:312:12)\n    ...\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+148 silly resolved     readmeFilename: 'README.md',
+148 silly resolved     _id: 'bindings@1.1.0',
+148 silly resolved     _from: 'bindings@*' } ]
+149 info install bindings@1.1.0 into C:\Users\fingerskier\Projects\stream-seed\node_modules\weak
+150 info installOne bindings@1.1.0
+151 verbose from cache C:\Users\fingerskier\AppData\Roaming\npm-cache\bindings\1.1.0\package\package.json
+152 info C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings unbuild
+153 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings\package.json
+154 verbose tar unpack C:\Users\fingerskier\AppData\Roaming\npm-cache\bindings\1.1.0\package.tgz
+155 silly lockFile 1497bc38-dules-weak-node-modules-bindings C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings
+156 verbose lock C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings C:\Users\fingerskier\AppData\Roaming\npm-cache\1497bc38-dules-weak-node-modules-bindings.lock
+157 silly gunzTarPerm modes [ '755', '644' ]
+158 silly gunzTarPerm extractEntry package.json
+159 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+160 silly gunzTarPerm extractEntry README.md
+161 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+162 silly gunzTarPerm extractEntry bindings.js
+163 silly gunzTarPerm modified mode [ 'bindings.js', 438, 420 ]
+164 verbose read json C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings\package.json
+165 silly lockFile 1497bc38-dules-weak-node-modules-bindings C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings
+166 info preinstall bindings@1.1.0
+167 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings\package.json
+168 verbose readDependencies using package.json deps
+169 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings\package.json
+170 verbose readDependencies using package.json deps
+171 silly resolved []
+172 verbose about to build C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings
+173 info build C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings
+174 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\node_modules\bindings\package.json
+175 verbose linkStuff [ false,
+175 verbose linkStuff   false,
+175 verbose linkStuff   false,
+175 verbose linkStuff   'C:\\Users\\fingerskier\\Projects\\stream-seed\\node_modules\\weak\\node_modules' ]
+176 info linkStuff bindings@1.1.0
+177 verbose linkBins bindings@1.1.0
+178 verbose linkMans bindings@1.1.0
+179 verbose rebuildBundles bindings@1.1.0
+180 info install bindings@1.1.0
+181 info postinstall bindings@1.1.0
+182 verbose about to build C:\Users\fingerskier\Projects\stream-seed\node_modules\weak
+183 info build C:\Users\fingerskier\Projects\stream-seed\node_modules\weak
+184 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\package.json
+185 verbose linkStuff [ false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   'C:\\Users\\fingerskier\\Projects\\stream-seed\\node_modules' ]
+186 info linkStuff weak@0.2.1
+187 verbose linkBins weak@0.2.1
+188 verbose linkMans weak@0.2.1
+189 verbose rebuildBundles weak@0.2.1
+190 verbose rebuildBundles [ 'bindings' ]
+191 info install weak@0.2.1
+192 verbose unsafe-perm in lifecycle true
+193 silly exec cmd "/c" "node-gyp rebuild"
+194 silly cmd,/c,node-gyp rebuild,C:\Users\fingerskier\Projects\stream-seed\node_modules\weak spawning
+195 info weak@0.2.1 Failed to exec install script
+196 info C:\Users\fingerskier\Projects\stream-seed\node_modules\weak unbuild
+197 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\weak\package.json
+198 info preuninstall weak@0.2.1
+199 info uninstall weak@0.2.1
+200 verbose true,C:\Users\fingerskier\Projects\stream-seed\node_modules,C:\Users\fingerskier\Projects\stream-seed\node_modules unbuild weak@0.2.1
+201 info postuninstall weak@0.2.1
+202 error weak@0.2.1 install: `node-gyp rebuild`
+202 error `cmd "/c" "node-gyp rebuild"` failed with 1
+203 error Failed at the weak@0.2.1 install script.
+203 error This is most likely a problem with the weak package,
+203 error not with npm itself.
+203 error Tell the author that this fails on your system:
+203 error     node-gyp rebuild
+203 error You can get their info via:
+203 error     npm owner ls weak
+203 error There is likely additional logging output above.
+204 error System Windows_NT 6.1.7601
+205 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+206 error cwd C:\Users\fingerskier\Projects\stream-seed
+207 error node -v v0.8.15
+208 error npm -v 1.1.66
+209 error code ELIFECYCLE
+210 verbose exit [ 1, true ]
