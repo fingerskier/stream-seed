@@ -44,36 +44,36 @@
 31 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\shoe\package.json
 32 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\tap\package.json
 33 verbose from cache C:\Users\fingerskier\Projects\stream-seed\node_modules\tape\package.json
-34 verbose already installed skipping mongodb@* C:\Users\fingerskier\Projects\stream-seed
-35 verbose already installed skipping shoe@* C:\Users\fingerskier\Projects\stream-seed
-36 verbose cache add [ 'weak@*', null ]
-37 silly cache add name=undefined spec="weak@*" args=["weak@*",null]
-38 verbose parsed url { pathname: 'weak@*', path: 'weak@*', href: 'weak@*' }
-39 silly cache add name="weak" spec="*" args=["weak","*"]
-40 verbose parsed url { pathname: '*', path: '*', href: '*' }
-41 verbose addNamed [ 'weak', '*' ]
-42 verbose addNamed [ null, '' ]
-43 verbose already installed skipping tap@* C:\Users\fingerskier\Projects\stream-seed
-44 verbose already installed skipping tape@* C:\Users\fingerskier\Projects\stream-seed
-45 verbose already installed skipping dnode@* C:\Users\fingerskier\Projects\stream-seed
-46 verbose already installed skipping dnode-protocol@* C:\Users\fingerskier\Projects\stream-seed
-47 verbose already installed skipping domready@* C:\Users\fingerskier\Projects\stream-seed
-48 verbose already installed skipping ecstatic@* C:\Users\fingerskier\Projects\stream-seed
-49 verbose already installed skipping jsonify@* C:\Users\fingerskier\Projects\stream-seed
+34 verbose already installed skipping dnode@* C:\Users\fingerskier\Projects\stream-seed
+35 verbose already installed skipping dnode-protocol@* C:\Users\fingerskier\Projects\stream-seed
+36 verbose already installed skipping domready@* C:\Users\fingerskier\Projects\stream-seed
+37 verbose already installed skipping ecstatic@* C:\Users\fingerskier\Projects\stream-seed
+38 verbose already installed skipping jsonify@* C:\Users\fingerskier\Projects\stream-seed
+39 verbose already installed skipping mongodb@* C:\Users\fingerskier\Projects\stream-seed
+40 verbose already installed skipping shoe@* C:\Users\fingerskier\Projects\stream-seed
+41 verbose cache add [ 'weak@*', null ]
+42 silly cache add name=undefined spec="weak@*" args=["weak@*",null]
+43 verbose parsed url { pathname: 'weak@*', path: 'weak@*', href: 'weak@*' }
+44 silly cache add name="weak" spec="*" args=["weak","*"]
+45 verbose parsed url { pathname: '*', path: '*', href: '*' }
+46 verbose addNamed [ 'weak', '*' ]
+47 verbose addNamed [ null, '' ]
+48 verbose already installed skipping tap@* C:\Users\fingerskier\Projects\stream-seed
+49 verbose already installed skipping tape@* C:\Users\fingerskier\Projects\stream-seed
 50 silly lockFile 231e1797-weak weak@*
 51 verbose lock weak@* C:\Users\fingerskier\AppData\Roaming\npm-cache\231e1797-weak.lock
 52 silly addNameRange { name: 'weak', range: '', hasData: false }
 53 verbose url raw weak
 54 verbose url resolving [ 'https://registry.npmjs.org/', './weak' ]
 55 verbose url resolved https://registry.npmjs.org/weak
-56 info trying registry request attempt 1 at 20:16:03
+56 info trying registry request attempt 1 at 21:03:11
 57 verbose etag "5LFUYWMS7FJJ3GZFYL6K10NWN"
 58 http GET https://registry.npmjs.org/weak
 59 http 304 https://registry.npmjs.org/weak
 60 silly registry.get cb [ 304,
 60 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
 60 silly registry.get     etag: '"5LFUYWMS7FJJ3GZFYL6K10NWN"',
-60 silly registry.get     date: 'Sun, 24 Mar 2013 02:16:07 GMT',
+60 silly registry.get     date: 'Sun, 24 Mar 2013 03:03:14 GMT',
 60 silly registry.get     'content-length': '0' } ]
 61 verbose etag weak from cache
 62 silly addNameRange number 2 { name: 'weak', range: '', hasData: true }
@@ -185,14 +185,14 @@
 130 verbose url raw bindings
 131 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
 132 verbose url resolved https://registry.npmjs.org/bindings
-133 info trying registry request attempt 1 at 20:16:06
+133 info trying registry request attempt 1 at 21:03:14
 134 verbose etag "4NYLBD9FONZAZA2PMGUSX6925"
 135 http GET https://registry.npmjs.org/bindings
 136 http 304 https://registry.npmjs.org/bindings
 137 silly registry.get cb [ 304,
 137 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
 137 silly registry.get     etag: '"4NYLBD9FONZAZA2PMGUSX6925"',
-137 silly registry.get     date: 'Sun, 24 Mar 2013 02:16:08 GMT',
+137 silly registry.get     date: 'Sun, 24 Mar 2013 03:03:16 GMT',
 137 silly registry.get     'content-length': '0' } ]
 138 verbose etag bindings from cache
 139 silly addNameRange number 2 { name: 'bindings', range: '', hasData: true }
